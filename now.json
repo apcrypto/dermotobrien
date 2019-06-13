@@ -1,9 +1,7 @@
 {
     "version": 2,
     "name": "dermot-obrien",
-    "alias": [
-      "dermotobrien.tv"
-    ],
+
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
     ],
