@@ -4,7 +4,11 @@
   left: 0;
   width: 100%;
   background: #521367;
-  height: 56px;
+  height: 66px;
+}
+
+.toolbar_logo {
+  margin-left: 1rem;
 }
 
 .toolbar_logo a {

@@ -5,13 +5,17 @@ import FactEnt from "./components/FactEnt";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Toolbar from "./components/Toolbar/Toolbar";
+import SideDrawer from "./components/SideDrawer/SideDrawer"
+import Backdrop from "./components/Backdrop/Backdrop"
 
 class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div style={{height: '100%'}}>
       <Toolbar />
+      <SideDrawer />
+      <Backdrop />
       <SpecialistFactual />
       <Observational />
       <FactEnt />
