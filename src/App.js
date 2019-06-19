@@ -1,19 +1,25 @@
-import React from 'react';
-import logo from './logo.jpg';
-import './App.css';
+import React, { Component } from 'react';
+import SpecialistFactual from "./components/SpecialistFactual";
+import Observational from "./components/Observational";
+import FactEnt from "./components/FactEnt";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Toolbar from "./components/Toolbar/Toolbar";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello Dermot, this is where the dev version of your site will be hosted. I'll let you know when there's something more than a spinning image to see :)
-        </p>
+class App extends Component {
 
-      </header>
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+      <Toolbar />
+      <SpecialistFactual />
+      <Observational />
+      <FactEnt />
+      <About />
+      <Contact />
+      </div>
+    );
+  }
 }
 
 export default App;
