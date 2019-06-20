@@ -1,10 +1,18 @@
 import React, { Component } from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 
-export default class Observational extends Component {
-  render() {
-    return (
-      <div>
-      </div>
-    )
-  }
-}
+import './Observational.css';
+
+
+
+  const specialistfactual = props => (
+      <ScrollableAnchor id={"observational"}>
+      <header className='observational'>
+        <div>
+          <h1 className="header">OBSERVATIONAL</h1>
+        </div>
+      </header>
+      </ScrollableAnchor>
+  )
+
+export default specialistfactual;
