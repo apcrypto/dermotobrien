@@ -8,7 +8,7 @@ const sideDrawer = props => {
       drawerClasses = 'side_drawer open'
     }
   return (
-  <nav className={drawerClasses}>
+  <nav className={drawerClasses} onClick={props.drawerLinkClickHandler}>
     <ul>
       <li><a href="#specialistfactual">SPECIALIST FACTUAL</a></li>
       <li><a href="#observational">OBSERVATIONAL</a></li>
