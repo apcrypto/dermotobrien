@@ -7,7 +7,7 @@ import './Contact.css';
       <ScrollableAnchor id={"contact"}>
       <header className='contact'>
         <div>
-          <h1 className="header">ABOUT</h1>
+          <h1 className="header">CONTACT</h1>
         </div>
       </header>
       </ScrollableAnchor>
