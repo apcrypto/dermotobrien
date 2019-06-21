@@ -19,6 +19,10 @@ class App extends Component {
     })
   }
 
+  drawerLinkHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  }
+
   backdropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   }
@@ -33,7 +37,7 @@ class App extends Component {
     return (
       <div style={{height: '100%'}}>
       <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-      <SideDrawer show={this.state.sideDrawerOpen} />
+      <SideDrawer show={this.state.sideDrawerOpen} drawerLinkHandler={this.state.sideDrawerOpen} />
       {backdrop}
       <SpecialistFactual />
       <Observational />
