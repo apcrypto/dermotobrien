@@ -9,7 +9,7 @@ import './Toolbar.css';
         <div className='toolbar_toggle_button'>
           <DrawerToggleButton click={props.drawerClickHandler}/>
         </div>
-        <div className='toolbar_logo'><a href="#home">DERMOT O'BRIEN</a></div>
+        <div className='toolbar_logo'><a href="#specialistfactual">DERMOT O'BRIEN</a></div>
         <div className='spacer'></div>
         <div className='toolbar_navigation_items'>
           <ul>

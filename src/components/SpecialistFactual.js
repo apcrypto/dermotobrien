@@ -6,7 +6,7 @@ const specialistfactual = props => (
   <ScrollableAnchor id={"specialistfactual"}>
     <div>
     <div className="header">
-      <header>SPECIALIST</header>
+      <header>SPECIALIST FACTUAL</header>
     </div>
 
     <div className="wrapper">
