@@ -3,8 +3,6 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 import './Observational.css';
 
-
-
   const specialistfactual = props => (
       <ScrollableAnchor id={"observational"}>
         <div>

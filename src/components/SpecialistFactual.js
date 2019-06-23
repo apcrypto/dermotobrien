@@ -4,9 +4,9 @@ import "./SpecialistFactual.css";
 
 const specialistfactual = props => (
   <ScrollableAnchor id={"specialistfactual"}>
-  <div>
+    <div>
     <div className="header">
-      <header>SPECIALIST FACTUAL</header>
+      <header>SPECIALIST</header>
     </div>
 
     <div className="wrapper">
