@@ -8,6 +8,7 @@
   border-bottom: 1px solid #d3d3d3;
   box-shadow: 2px 0px 7px rgba(0, 0, 7, 0.5);
   margin-bottom: 20px;
+  z-index: 100;
 }
 
 .toolbar_logo {
