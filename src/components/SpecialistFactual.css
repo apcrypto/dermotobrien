@@ -68,21 +68,41 @@ p {
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: minmax(150px, auto);
+  grid-auto-rows: minmax(200px, auto);
 }
 
 .panel {
   /* needed for the flex layout*/
-  margin-left: 5px;
+  margin-left: 0px;
   margin-right: 5px;
   flex: 1 1 200px;
 }
 
 .wrapper > * {
-  background-color: #444;
   color: #fff;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;
   margin-bottom: 10px;
+}
+
+/* .panel p a {
+  font-size: 16px;
+  text-align: left;
+  color: gray;
+} */
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
