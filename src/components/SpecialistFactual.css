@@ -38,7 +38,7 @@ EDIT ON
 }
 
 body {
-  margin: 40px;
+  margin: 0px;
   /* font-family: 'Open Sans', 'sans-serif'; */
   background-color: #fff;
   color: #444;
@@ -73,7 +73,7 @@ p {
 
 .panel {
   /* needed for the flex layout*/
-  margin-left: 0px;
+  margin-left: 5px;
   margin-right: 5px;
   flex: 1 1 200px;
 }

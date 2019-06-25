@@ -41,10 +41,10 @@ class App extends Component {
           drawerLinkClickHandler={this.drawerLinkClickHandler}
         />
         {backdrop}
+        <About />
         <SpecialistFactual />
         <Observational />
         <FactEnt />
-        <About />
         <Contact />
       </div>
     );
